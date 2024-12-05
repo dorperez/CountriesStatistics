@@ -1,0 +1,85 @@
+/* General */
+.inputStyle{
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 12px;
+}
+
+.uiContainer button:hover{
+    cursor: pointer;
+}
+
+/* Container */
+.uiContainer {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.statsCardContainer{
+    display: flex;
+}
+
+.statsCard {
+    display: inline-block;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 12px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.statsCard span {
+    font-weight: 100;
+    font-size: 14px;
+}
+
+/* Table */
+.countriesStatsTable {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.countriesStatsTable th,
+.countriesStatsTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.countriesStatsTable th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.trWithFlag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.trWithFlag img{
+    margin-left: 12px;
+}
+
+.tablesContainer {
+    width: 100%;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.tableWrapper {
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    width: 100%;
+    max-height: 400px;
+    overflow: auto;
+    border: 1px solid #ddd;
+  }
